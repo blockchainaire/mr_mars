@@ -19,7 +19,7 @@ env:
 
 jobs:
   build-and-push-image:
-    if: github.repository == 'chainsaid/chainsaid-gpt'
+    if: github.repository == 'blockchainaire/mr_mars'
     runs-on: ubuntu-latest
     permissions:
       contents: read
