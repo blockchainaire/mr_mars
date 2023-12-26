@@ -1,3 +1,3 @@
-FROM ghcr.io/chainsaid/chainsaid-gpt:latest
+FROM ghcr.io/blockchainaire/chainsaid-gpt:master
 
 ENTRYPOINT ["/entrypoint.sh"]
